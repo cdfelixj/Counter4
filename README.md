@@ -6,67 +6,12 @@ This is an enhannced version of the game, Connect4. The Connect 4 game is a clas
 <br>
 In our game, all the rules are same, except for an additional rule. That is, after the 6th turn, one random previously input coin of the player who started the game will turn to his opponents. For example, if Player X started the game, after the 6th turn, one of his coins will change to Player O's. See the diagram below to get a better idea (the human input was in column 2 row 2, but the random change was done in column 2, bottom row). 
 
-  1   2   3   4   5   6   7             [The next step is done by the bot]
-+---+---+---+---+---+---+---+            
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| O |   | O |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| X | X | X | O |   |   |   | 
-+---+---+---+---+---+---+---+
-  1   2   3   4   5   6   7
-Player X, choose a column (1-7):  2      [This step is done by human]
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| O | X | O |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| X | O | X | O |   |   |   | 
-+---+---+---+---+---+---+---+
-  1   2   3   4   5   6   7
-In the 7th turn, the same thing happens, but this time in favour of player X. After the 7th move (assuming it's player O's turn), one coin of Player O will turn to Player X's. See the diagram below for better understanding (the computer input was in column 4, bottom row 2, but the random change was done in column 2, bottom row 2).
+![Screenshot 2023-11-24 193618](https://github.com/cdfelixj/Counter4/assets/120282157/857bed1e-e7b6-404c-8a41-f54521c0f0ec)
 
-Player X, choose a column (1-7):  2      [This step is done by human]
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| O | X | O |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| X | O | X | O |   |   |   | 
-+---+---+---+---+---+---+---+
-  1   2   3   4   5   6   7              [The next step is done by the bot]
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-|   |   |   |   |   |   |   | 
-+---+---+---+---+---+---+---+
-| O | X | X | O |   |   |   | 
-+---+---+---+---+---+---+---+
-| X | O | X | O |   |   |   | 
-+---+---+---+---+---+---+---+
-  1   2   3   4   5   6   7 
+In the 7th turn, the same thing happens, but this time in favour of player X. After the 7th move (assuming it's player O's turn), one coin of Player O will turn to Player X's. See the diagram below for better understanding (the computer input was in column 4, bottom row 2, but the random change was done in column 2, bottom row 2).
+![Screenshot 2023-11-24 193618](https://github.com/cdfelixj/Counter4/assets/120282157/c710f427-3a72-49fe-a9cc-7ec8a190fe53)
+
+This process switching coins continues until a winner is found or the match is tied (the board is full).
 
 
 | Attempt | #1    | #2    |
