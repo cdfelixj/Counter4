@@ -18,16 +18,17 @@ In the 7th turn, the same thing happens, but this time in favor of Player X. Aft
 
 This process of switching coins continues until a winner is found or the match is tied (the board is full). 
 <br>
+
+## Different Approaches
 <br>
 We have developed 3 bots with different functions. At first, there is a bot that prioritizes blocking rather than winning. We named that bot 'Defensive bot'. Then there is another bot named 'Aggressive bot' that prioritizes winning rather than blocking and lastly the 'Neutral bot' is the one that plays normally. It sees if any possible 4th input blocking can be done, if not then it goes for stacking if there are 3 or 2 same computer inputs.
 <br>
 We have run many bots vs bots simulations and found out that the winner selection is a bit random. Unlike CONNECT4, where there is a comparative advantage for the Neutral bot, here in Counter4, it's a bit more fair. We have seen that the Aggressive bot wins against the Defensive bot and the Neutral wins against the Defensive. Now you may think that the Neutral has an absolute advantage in winning.
 <br>
-## But you are wrong! 
+
+### But you are wrong! 
 <br>
 The Neutral bot loses against the Aggressive one! And that's what makes our game unique and fair.
 
-## Please give it a try and let us know if we can improve it. (I'm sure there are so many things wee need to improve!) Thank you.
-| Attempt | #1    | #2    |
-| :---:   | :---: | :---: |
-| Seconds | 301   | 283   |
+## Please give it a try and let us know if we can improve it. (I'm sure there are so many things we need to improve!) Thank you.
+
